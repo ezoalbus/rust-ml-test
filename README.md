@@ -76,7 +76,7 @@ bad        | 12         | 130
 accuracy 0.8805031, MCC 0.45080975
 ```
 
-途中、"error: linking with \`cc\` failed: exit status: 1" が出たので、`sudo apt install libopenblas-dev`などをした。
+途中、"error: linking with \`cc\` failed: exit status: 1" が出たので、`sudo apt install gfortran libopenblas-dev liblapacke-dev libatlas-base-dev`をした。
 
 ---
 おわり
